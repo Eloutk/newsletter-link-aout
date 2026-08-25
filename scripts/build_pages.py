@@ -145,7 +145,8 @@ def chrome(base: str, active: str, title: str, description: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title}</title>
   <meta name="description" content="{description}">
-  <link rel="icon" href="{href(base, "favicon.svg")}" type="image/svg+xml">
+  <link rel="icon" href="{href(base, "favicon.png")}" type="image/png">
+  <link rel="apple-touch-icon" href="{href(base, "apple-touch-icon.png")}">
   <link rel="stylesheet" href="{href(base, "css/styles.css")}">
 </head>
 <body>
