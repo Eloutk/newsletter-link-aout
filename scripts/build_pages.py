@@ -296,7 +296,7 @@ def build_home() -> None:
   <section class="portrait-band">
     <div class="waves" aria-hidden="true"></div>
     <div class="container portrait-inner">
-      <div class="avatar" aria-hidden="true">GC</div>
+      <img class="avatar" src="images/gary-cadiz.png" alt="Gary Cadiz">
       <div>
         <div class="section-kicker">Qui sont-ils ?</div>
         <h2>Gary Cadiz</h2>
@@ -399,7 +399,7 @@ def build_portrait() -> None:
       </nav>
       <div class="eyebrow">Qui sont-ils ? · Édition #7</div>
       <div class="profile-hero">
-        <div class="avatar" aria-hidden="true">GC</div>
+        <img class="avatar" src="images/gary-cadiz.png" alt="Gary Cadiz">
         <div>
           <h1>Gary Cadiz</h1>
           <p>Directeur commercial</p>
