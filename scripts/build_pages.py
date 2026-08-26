@@ -31,27 +31,6 @@ ARTICLES = [
         "featured": True,
     },
     {
-        "id": "achat-media",
-        "file": "articles/achat-media.html",
-        "nav": "achat",
-        "label": "IA & plateformes",
-        "nav_label": "IA & médias",
-        "title": "L'achat média passe en mode agentique : ce qui change pour les annonceurs",
-        "chapo": "Google AI Max est le nouveau défaut pour les campagnes Search. Meta réécrit vos annonces en temps réel. L'humain se repositionne sur la stratégie , pas l'exécution.",
-        "lead": "Depuis le 15 avril 2026, <strong>AI Max for Search est sorti de bêta</strong> et devient le type de campagne Search par défaut chez Google. Il combine matching sémantique (Gemini), personnalisation des textes et expansion d'URL , sans liste de mots-clés obligatoire. Côté Meta, juillet-août a été dense : lancement de <strong>Muse Image</strong> (génération d'images IA dans Advantage+), réécriture automatique des titres sur images uploadées, et déploiement du <strong>Generative Recommender</strong> (ranking LLM des annonces). Performance Max représente désormais <strong>45 % de toutes les conversions Google Ads</strong>.",
-        "facts": [
-            "Google AI Max annonce <strong>+7 % de conversions</strong> à CPA/ROAS similaire vs. search term matching seul (données Google internes)",
-            "Meta Lattice : <strong>+12 % de qualité des annonces</strong>, +6 % de taux de conversion, +20 % d'efficacité capacitaire (Meta, jan. 2026)",
-            "<strong>91 % des annonceurs Meta</strong> utilisent désormais Advantage+ (Business Insider, 2026)",
-            "Migration DSA → AI Max repoussée à <strong>février 2027</strong>, mais ACA + broad match migrent en <strong>septembre 2026</strong>",
-        ],
-        "reco": "<strong>Pour Link :</strong> auditer les campagnes DSA clients avant septembre 2026 (migration automatique imminente). Tester AI Max sur 1-2 campagnes Search dès maintenant. La valeur ajoutée de l'agence se déplace vers la qualité des assets créatifs fournis aux algorithmes , pas l'exécution manuelle.",
-        "kpis": [],
-        "card_title": "L'achat média passe en mode agentique",
-        "card_text": "AI Max devient le défaut Search. Meta réécrit les annonces en temps réel. La stratégie humaine prend le relais de l'exécution.",
-        "featured": False,
-    },
-    {
         "id": "video-ia",
         "file": "articles/video-ia.html",
         "nav": "video",
@@ -135,7 +114,6 @@ SOURCES = [
 NAV = [
     ("home", "index.html", "Accueil"),
     ("marche", "articles/marche-pub.html", "Marché"),
-    ("achat", "articles/achat-media.html", "IA & médias"),
     ("video", "articles/video-ia.html", "Vidéo"),
     ("social", "articles/reseaux-sociaux.html", "Social"),
     ("rgpd", "articles/rgpd.html", "RGPD"),
@@ -249,7 +227,7 @@ def build_home() -> None:
         base,
         "home",
         "Les News | keep the link",
-        "Veille webmarketing Link , édition août 2026 : marché pub, achat média IA, vidéo générative, réseaux sociaux et RGPD.",
+        "Veille webmarketing Link , édition août 2026 : marché pub, vidéo générative, réseaux sociaux et RGPD.",
     )
     html += f"""
   <section class="hero">
@@ -278,7 +256,6 @@ def build_home() -> None:
     <div class="container">
       <ul class="topics-list">
         <li><a href="articles/marche-pub.html">Marché pub</a></li>
-        <li><a href="articles/achat-media.html">Achat média</a></li>
         <li><a href="articles/video-ia.html">IA &amp; vidéo</a></li>
         <li><a href="articles/reseaux-sociaux.html">Réseaux sociaux</a></li>
         <li><a href="articles/rgpd.html">RGPD &amp; cookies</a></li>
@@ -290,10 +267,10 @@ def build_home() -> None:
       <div class="section-head">
         <div>
           <div class="section-kicker">Au sommaire</div>
-          <h2>Cinq sujets à retenir</h2>
+          <h2>Quatre sujets à retenir</h2>
         </div>
       </div>
-      <p class="intro-text"><strong>Quatre signaux. Une seule direction :</strong> les agences qui combinent vidéo, IA maîtrisée et données propres prennent une longueur d'avance que les autres auront du mal à combler. Juillet–août 2026 : le Social dépasse le Search, l'achat média devient agentique, et la conformité (IA Act, cookies) n'est plus optionnelle.</p>
+      <p class="intro-text"><strong>Quatre signaux. Une seule direction :</strong> les agences qui combinent vidéo, IA maîtrisée et données propres prennent une longueur d'avance que les autres auront du mal à combler. Juillet–août 2026 : le Social dépasse le Search, et la conformité (IA Act, cookies) n'est plus optionnelle.</p>
       <div class="kpi-row">
         <div class="kpi-card"><div class="kpi-value">6,7 Md€</div><div class="kpi-label">Marché digital S1 2026</div></div>
         <div class="kpi-card"><div class="kpi-value">+12 %</div><div class="kpi-label">Croissance vs S1 2025</div></div>
@@ -303,7 +280,7 @@ def build_home() -> None:
   </section>
   <section class="section" style="padding-top:0">
     <div class="container">
-      <div class="card-grid five">
+      <div class="card-grid four">
 {chr(10).join(cards)}
       </div>
     </div>
@@ -489,7 +466,8 @@ if __name__ == "__main__":
     build_articles()
     build_portrait()
     build_sources()
-    geo = ROOT / "articles" / "geo.html"
-    if geo.exists():
-        geo.unlink()
+    for obsolete in ("geo.html", "achat-media.html"):
+        path = ROOT / "articles" / obsolete
+        if path.exists():
+            path.unlink()
     print("built")
