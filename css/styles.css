@@ -362,8 +362,13 @@ a {
   gap: 20px;
 }
 
-.card-grid.four {
+.card-grid.four,
+.card-grid.five {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.card-grid.five .card.featured {
+  grid-column: 1 / -1;
 }
 
 .card {
@@ -628,18 +633,31 @@ a {
   margin-bottom: 28px;
 }
 
-.facts li {
-  display: flex;
-  gap: 10px;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--line);
+.facts li,
+.sources li {
+  position: relative;
+  padding: 12px 0 12px 28px;
   color: var(--grey);
+  font-size: 17px;
+  line-height: 1.55;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 
-.facts li::before {
-  content: "▪";
-  color: var(--orange);
-  flex-shrink: 0;
+.facts li::before,
+.sources li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--orange);
+}
+
+.facts li:last-child,
+.sources li:last-child {
+  border-bottom: 0;
 }
 
 .facts li strong {
@@ -755,24 +773,10 @@ a {
 /* ---------- Sources ---------- */
 .sources {
   list-style: none;
-  display: grid;
-  gap: 8px;
 }
 
 .sources li {
-  background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 14px 16px 14px 28px;
-  color: var(--grey);
-  position: relative;
-}
-
-.sources li::before {
-  content: "—";
-  position: absolute;
-  left: 12px;
-  color: var(--orange);
+  background: transparent;
 }
 
 /* ---------- Footer ---------- */
@@ -861,6 +865,7 @@ a {
   .portrait-inner,
   .card-grid,
   .card-grid.four,
+  .card-grid.five,
   .profile-grid {
     grid-template-columns: 1fr;
   }
