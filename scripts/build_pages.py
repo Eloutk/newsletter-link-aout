@@ -8,27 +8,47 @@ ARTICLES = [
         "id": "marche-pub",
         "file": "articles/marche-pub.html",
         "nav": "marche",
-        "label": "Marché pub France",
+        "label": "L'actu flash",
         "nav_label": "Marché",
-        "title": "Le Social passe devant le Search",
-        "chapo": "Le marché digital français atteint 6,69 Md€ au S1 2026. +12 %. Et pour la première fois, le Social dépasse le Search. La vidéo en est le seul moteur.",
-        "lead": "Ce n'est pas une tendance. C'est un basculement. Le 36e Observatoire de l'e-pub SRI/UDECAM (9 juillet 2026) le confirme : la vidéo sociale capte désormais plus de budget publicitaire que les liens sponsorisés classiques. Pensez à ça comme à un changement de gravité , tout ce qui était secondaire devient central. La prévision annuelle reste à +11 %, soit un marché attendu à <strong>~13,9 Md€</strong> sur l'année.",
+        "title": "Le marché pub digital français franchit les 6,7 Md€ au S1 2026",
+        "chapo": "+12 % de croissance, 6,689 Md€ de recettes : le digital confirme sa solidité. Mais 83 % du gâteau part chez Google, Meta, Amazon et TikTok.",
+        "lead": "Le 36e Observatoire de l'e-pub (SRI/UDECAM/Oliver Wyman, 9 juillet 2026) confirme une dynamique solide, tirée par trois moteurs : le Social (+16 %), le Retail Media (+18 %) et la vidéo sous toutes ses formes. En face, le display classique recule (-5 %) et les éditeurs français perdent des parts. La prévision annuelle 2026 est fixée à <strong>~13,9 Md€</strong>.",
         "facts": [
-            "Le Social progresse de <strong>+16 % à 2,22 Md€</strong> , soit 33 % du marché et 41 % de toute la croissance du semestre",
-            "La vidéo représente <strong>64 % des revenus Social (+31 %, 1,42 Md€)</strong> , la croissance est exclusivement vidéo",
-            "Le Retail Media atteint <strong>775 M€ (+18 %)</strong>, dont 77 % via le Retail Search (+24 %)",
-            "La CTV s'impose comme <strong>1er support vidéo Display (51 %)</strong> des revenus vidéo Display ; la SVOD affiche +36 %",
-            "Les acteurs français ne représentent plus que <strong>17 % du marché</strong> (+4 % seulement, contre +12 % pour le marché global)",
+            "Le <strong>Social représente 33 % du marché</strong> (2,22 Md€) et contribue à 41 % de la croissance du S1",
+            "La <strong>vidéo sociale explose à +31 %</strong> et pèse 1,422 Md€, soit 64 % du levier Social",
+            "Le <strong>programmatique vidéo atteint 78 %</strong> de part dans la vidéo (vs 75 % un an plus tôt)",
+            "L'Édition &amp; Information est le <strong>seul segment en recul (-5 %)</strong>, à 251 M€",
         ],
-        "reco": "<strong>Pour Link :</strong> la vidéo sociale n'est plus un format complémentaire , c'est le cœur du marché. Proposer des formats vidéo natifs (Reels, TikTok, Shorts) à chaque client est une nécessité commerciale, pas une option.",
+        "reco": "<strong>Pour Link :</strong> Le marché croît, mais la valeur se concentre. L'arbitrage entre plateformes globales (performance) et médias français (brand safety, contexte) devient un enjeu stratégique central pour chaque client. La vidéo est non négociable dans tout plan média 2026.",
         "kpis": [
             ("6,7 Md€", "Marché digital S1 2026"),
             ("+12 %", "Croissance vs S1 2025"),
             ("83 %", "Capté par acteurs non-EU"),
         ],
-        "card_title": "Le Social passe devant le Search",
-        "card_text": "6,69 Md€ au S1 (+12 %). Pour la première fois, le Social dépasse le Search , porté exclusivement par la vidéo.",
+        "card_title": "Le marché digital franchit les 6,7 Md€",
+        "card_text": "+12 % au S1, 6,689 Md€. La vidéo sociale et le retail media tirent la croissance. 83 % du gâteau part chez Google, Meta, Amazon et TikTok.",
         "featured": True,
+    },
+    {
+        "id": "achat-media",
+        "file": "articles/achat-media.html",
+        "nav": "achat",
+        "label": "IA &amp; plateformes",
+        "nav_label": "IA",
+        "title": "L'achat média passe en mode agentique : ce qui change pour les annonceurs",
+        "chapo": "Google AI Max est le nouveau défaut pour les campagnes Search. Meta réécrit vos annonces en temps réel. L'humain se repositionne sur la stratégie, pas l'exécution.",
+        "lead": "Depuis le 15 avril 2026, <strong>AI Max for Search est sorti de bêta</strong> et devient le type de campagne Search par défaut chez Google. Il combine matching sémantique (Gemini), personnalisation des textes et expansion d'URL — sans liste de mots-clés obligatoire. Côté Meta, juillet-août a été dense : lancement de <strong>Muse Image</strong> (génération d'images IA dans Advantage+), réécriture automatique des titres sur images uploadées, et déploiement du <strong>Generative Recommender</strong> (ranking LLM des annonces). Performance Max représente désormais <strong>45 % de toutes les conversions Google Ads</strong>.",
+        "facts": [
+            "Google AI Max annonce <strong>+7 % de conversions</strong> à CPA/ROAS similaire vs. search term matching seul (données Google internes)",
+            "Meta Lattice : <strong>+12 % de qualité des annonces</strong>, +6 % de taux de conversion, +20 % d'efficacité capacitaire (Meta, jan. 2026)",
+            "<strong>91 % des annonceurs Meta</strong> utilisent désormais Advantage+ (Business Insider, 2026)",
+            "Migration DSA → AI Max repoussée à <strong>février 2027</strong>, mais ACA + broad match migrent en <strong>septembre 2026</strong>",
+        ],
+        "reco": "<strong>Pour Link :</strong> Auditer les campagnes DSA clients avant septembre 2026 (migration automatique imminente). Tester AI Max sur 1-2 campagnes Search dès maintenant. La valeur ajoutée de l'agence se déplace vers la qualité des assets créatifs fournis aux algorithmes — pas l'exécution manuelle.",
+        "kpis": [],
+        "card_title": "L'achat média passe en mode agentique",
+        "card_text": "AI Max devient le défaut Search. Meta réécrit les annonces en temps réel. L'humain se repositionne sur la stratégie, pas l'exécution.",
+        "featured": False,
     },
     {
         "id": "video-ia",
@@ -36,87 +56,73 @@ ARTICLES = [
         "nav": "video",
         "label": "Production vidéo",
         "nav_label": "Vidéo",
-        "title": "Vidéo IA , nouveaux outils, nouvelles obligations",
-        "chapo": "Runway Gen-4.5, Kling 3.0 Omni, Veo 3.1 : la génération vidéo IA entre dans une phase professionnelle. Et depuis le 2 août 2026, l'IA Act impose l'étiquetage obligatoire.",
-        "lead": "Imaginez un studio de production qui tient dans un navigateur. C'est à peu près là où en sont les outils vidéo IA en août 2026. Runway Gen-4.5 intègre des contrôles de caméra professionnels et 6 formats d'aspect ratio. Kling 3.0 Omni introduit l'AI Director , génération multi-plans avec transitions cinématiques , plus le lip-sync multilingue en 5 langues et des clips jusqu'à 15 secondes. L'écart de coût et de délai avec la production traditionnelle est désormais documenté, chiffré, et présentable aux clients.",
+        "title": "Génération vidéo IA : le stack professionnel est prêt",
+        "chapo": "Veo 3.1, Runway Gen-4.5, Kling 3.0 : trois outils complémentaires qui couvrent 95 % des besoins d'une agence. La production vidéo IA est opérationnelle. Maintenant.",
+        "lead": "La mise à jour Veo 3.1 (2 août 2026) intègre l'audio synchronisé natif sur tous les tiers, la sortie 4K et le couplage Gemini pour le prompting conversationnel. Elle réduit le temps de post-production audio d'environ <strong>40 %</strong>. Runway Gen-4.5 domine sur la cohérence des personnages (ELO 1 247 sur l'Artificial Analysis Video Arena). Kling 3.0 s'impose pour le volume social avec son mode storyboard multi-shots. À noter : <strong>l'API Sora 2 est en fin de vie en septembre 2026</strong> — ne plus intégrer dans les workflows.",
         "facts": [
-            "Vidéo IA Essentiel (15–45 sec) : <strong>1 000–2 500 € HT</strong>, délai 3–7 jours (vs 3 000–5 000 € HT / 3–6 semaines en traditionnel)",
-            "Vidéo IA Premium (90–180 sec + déclinaisons multilingues) : <strong>8 000–25 000 € HT</strong>, délai 3–4 semaines",
-            "Déclinaisons multilingues : <strong>+30 à 50 %</strong> en production classique vs coût marginal quasi nul en IA",
-            "Depuis le <strong>2 août 2026 (IA Act)</strong> : étiquetage « contenu généré par IA » obligatoire, consentements tracés, métadonnées C2PA , amendes jusqu'à <strong>15 M€ ou 3 % du CA mondial</strong>",
+            "<strong>Veo 3.1</strong> : audio natif synchronisé, 4K, 60s — idéal spots premium et assets Performance Max",
+            "<strong>Kling 3.0</strong> : ~0,084 $/s, multi-shots, audio natif — idéal volume social (Reels, TikTok, Shorts)",
+            "<strong>Runway Gen-4.5</strong> : ELO 1 247, meilleur score cohérence personnages — idéal brand content dirigé",
+            "<strong>Sora 2 API</strong> : fin de vie septembre 2026 — migrer vers Veo 3.1 ou Kling 3.0 sans attendre",
         ],
-        "reco": "<strong>Pour Link :</strong> l'approche hybride (tournage socle + déclinaisons IA) est le positionnement optimal à présenter aux clients. Intégrer la conformité IA Act dans les devis et contrats dès maintenant , ce n'est plus optionnel.",
+        "reco": "<strong>Pour Link :</strong> Intégrer le stack Kling (volume social) + Veo 3.1 (spots premium) + Runway (brand content) dans les workflows studio. La vraie valeur ajoutée reste la direction artistique et la cohérence de marque — pas la génération brute. Google recommande explicitement Veo 3.1 pour créer les assets vidéo Performance Max.",
         "kpis": [],
-        "card_title": "Vidéo IA : outils et obligations",
-        "card_text": "Runway, Kling, Veo : le stack pro est là. Depuis le 2 août, l'IA Act impose l'étiquetage des contenus générés.",
+        "card_title": "Le stack vidéo IA est prêt",
+        "card_text": "Veo 3.1, Runway Gen-4.5, Kling 3.0 : trois outils qui couvrent 95 % des besoins. L'API Sora 2 disparaît en septembre.",
         "featured": False,
     },
     {
-        "id": "reseaux-sociaux",
-        "file": "articles/reseaux-sociaux.html",
-        "nav": "social",
-        "label": "Réseaux sociaux",
-        "nav_label": "Social",
-        "title": "LinkedIn surprend, TikTok domine l'attention",
-        "chapo": "LinkedIn affiche +15,2 % d'utilisateurs actifs , la plus forte croissance de tous les réseaux en France. TikTok, lui, capte 1h33 par jour.",
-        "lead": "La France compte <strong>51,5 millions de comptes actifs</strong> sur les réseaux sociaux , 77,2 % de la population , pour un temps moyen de 12h32 par semaine. La surprise stratégique de 2026 ? LinkedIn. Sa croissance d'audience dépasse tous les autres réseaux, et son algorithme récompense massivement la vidéo verticale native. Pour les agences B2B, c'est une fenêtre d'opportunité à saisir maintenant, avant que tout le monde ne s'y engouffre.",
+        "id": "chatgpt-ads",
+        "file": "articles/chatgpt-ads.html",
+        "nav": "chatgpt",
+        "label": "Nouvelles surfaces",
+        "nav_label": "ChatGPT",
+        "title": "ChatGPT Ads : OpenAI ouvre la publicité à 600 millions d'utilisateurs",
+        "chapo": "OpenAI a officiellement annoncé l'arrivée de formats publicitaires dans ChatGPT. Une nouvelle surface d'inventaire premium, au cœur du moteur de recherche IA le plus utilisé au monde.",
+        "lead": "Après des mois de spéculations, OpenAI a confirmé le lancement d'un programme publicitaire intégré à ChatGPT. Les annonces apparaîtront de façon contextuelle dans les réponses, ciblées selon l'intention de la requête — un modèle proche du Search, mais avec la profondeur conversationnelle en plus. Pour les annonceurs, c'est l'accès à une audience de <strong>600 millions d'utilisateurs actifs</strong> qui consultent ChatGPT comme premier réflexe d'information, avant même Google. <strong>Link est sur liste d'attente pour déployer cette solution en avant-première</strong> et accompagner ses clients dès l'ouverture du programme.",
         "facts": [
-            "TikTok : <strong>1h33/jour</strong> de temps moyen (1er réseau par temps d'attention) ; YouTube : 1h16 ; Instagram : 1h14",
-            "LinkedIn : <strong>+15,2 % d'utilisateurs actifs</strong> en un an (vs +3,3 % pour TikTok) , 30 à 38 millions de membres en France",
-            "Vidéo native LinkedIn (15–90 sec, portrait) : portée <strong>5 à 10× supérieure</strong> aux posts texte ; liens externes dans le corps = -40 à 60 % de portée",
-            "YouTube touche <strong>84,4 % des internautes français</strong> ; YouTube Shorts cumule 200 milliards de vues quotidiennes mondiales",
+            "ChatGPT compte <strong>600 millions d'utilisateurs actifs</strong> dans le monde (OpenAI, 2026)",
+            "Le format publicitaire est <strong>contextuel et conversationnel</strong> : l'annonce s'intègre dans la réponse selon l'intention de la requête",
+            "OpenAI cible en priorité les <strong>annonceurs Search et Performance</strong> pour la phase de lancement",
+            "<strong>Link est en liste d'attente</strong> pour accéder au programme en avant-première et tester les premiers formats",
         ],
-        "reco": "<strong>Pour Link :</strong> proposer des formats 9:16 LinkedIn-first aux clients B2B est une opportunité immédiate. Sur TikTok et Shorts, les 3 premières secondes sont décisives , les scripts doivent être conçus pour l'attention, pas pour la narration classique.",
+        "reco": "<strong>Pour Link :</strong> Anticiper dès maintenant la stratégie créative et les audiences prioritaires pour les clients les plus exposés au Search. L'accès en avant-première permettra de tester, apprendre et prendre de l'avance sur un inventaire qui sera très disputé à l'ouverture.",
         "kpis": [],
-        "card_title": "LinkedIn surprend, TikTok domine",
-        "card_text": "LinkedIn +15,2 % d'actifs. TikTok capte 1h33/jour. La vidéo verticale native devient le format prioritaire.",
-        "featured": False,
-    },
-    {
-        "id": "rgpd",
-        "file": "articles/rgpd.html",
-        "nav": "rgpd",
-        "label": "RGPD & cookies",
-        "nav_label": "RGPD",
-        "title": "La CNIL ne dort plus",
-        "chapo": "Criteo condamné à 40 M€, définitivement. Depuis janvier 2026, un crawler automatisé de la CNIL contrôle les bandeaux cookies sans attendre de plainte.",
-        "lead": "Pendant longtemps, la non-conformité cookies était un risque théorique. Un risque que beaucoup géraient en croisant les doigts. Ce temps est révolu. Le 4 mars 2026, le Conseil d'État a validé l'amende de <strong>40 M€ infligée à Criteo</strong> , faute de preuve de consentement valable. Et depuis janvier 2026, la CNIL a déployé un crawler automatisé qui scanne les sites français en continu. Pas besoin de plainte. Le robot passe, il voit, il signale.",
-        "facts": [
-            "<strong>23 sanctions simplifiées</strong> prononcées depuis janvier 2026 pour un total de 133 750 € cumulés via le crawler automatisé",
-            "<strong>62 % des internautes français</strong> refusent les cookies non essentiels quand un vrai bouton « Refuser » est proposé (Didomi 2024)",
-            "Durée maximale des cookies publicitaires : <strong>13 mois</strong> avec renouvellement obligatoire (CNIL, 1er janvier 2026)",
-            "Le règlement ePrivacy a été formellement retiré (février 2025) ; le paquet Digital Omnibus est en trilogue , adoption incertaine avant <strong>2027</strong>",
-        ],
-        "reco": "<strong>Pour Link :</strong> audit de conformité cookies pour les sites clients, mise à jour des CMP, intégration du Google Consent Mode v2. Avec 62 % de refus cookies, les solutions analytics exemptées de consentement (Piano Analytics, Matomo) deviennent stratégiques.",
-        "kpis": [],
-        "card_title": "La CNIL ne dort plus",
-        "card_text": "Amende Criteo confirmée (40 M€). Un crawler CNIL scanne les bandeaux cookies en continu, sans plainte.",
+        "card_title": "ChatGPT Ads : 600 millions d'utilisateurs",
+        "card_text": "OpenAI ouvre la pub dans ChatGPT. Link est en liste d'attente pour déployer la solution en avant-première.",
         "featured": False,
     },
 ]
 
 SOURCES = [
-    "SRI / UDECAM / Oliver Wyman , 36e Observatoire de l'e-pub, 9 juillet 2026 (via CB News, The Media Leader FR, Viuz, Siècle Digital)",
-    "We Are Social / Meltwater , Digital Report France 2026 (janvier 2026) , Blog du Modérateur, Koredge.fr, Osmova.com",
-    "CRÉDOC , Baromètre du numérique 2026, juin 2026",
-    "HubSpot , State of Marketing 2026 ; Bpifrance , Rapport annuel mars 2026 (via DecisionIA.com)",
-    "Metricool.com/fr , AI Overview France, 3 août 2026 ; Blog du Modérateur",
-    "Obeevi.fr , Prix Vidéo IA 2026 : Grille Tarifaire, 2 février 2026",
-    "UlazAI (mis à jour 18 août 2026) , Comparatif modèles vidéo IA ; Kling.ai blog ; FreeAcademy.ai",
-    "Secure Privacy Blog FR , Consentement aux Cookies et RGPD en 2026, août 2026 ; CNIL (délibérations 2025-2026)",
-    "ViralBrain.ai , LinkedIn Algorithm 2026 ; DataSlayer.ai, juillet 2026",
-    "RGPDKit.fr , Bandeau cookies CNIL 2026, 11 août 2026 ; Agence Clova Blog (citant Didomi 2024)",
-    "Règlement IA Act UE (entrée en vigueur 2 août 2026 pour les obligations d'étiquetage vidéo)",
-    "Google Blog officiel , blog.google (AI Max for Search, avril &amp; juin 2026)",
-    "Meta for Business / about.fb.com , Meta Lattice jan. 2026 ; Muse Image juillet 2026",
+    "SRI / UDECAM / Oliver Wyman — 36e Observatoire de l'e-pub, 9 juillet 2026 — sri-france.org",
+    "The Media Leader FR — fr.themedialeader.com, 9 juillet 2026",
+    "Siècle Digital — siecledigital.fr, 13 juillet 2026",
+    "La Revue du Digital — larevuedudigital.com, juillet 2026",
+    "Blog du Modérateur — blogdumoderateur.com, janvier 2026",
+    "Google Blog officiel — blog.google (AI Max for Search, avril &amp; juin 2026)",
+    "Meta for Business / about.fb.com — Meta Lattice jan. 2026 ; Muse Image juillet 2026",
+    "AdAdvisor / AdMake AI Blog — Meta Ads updates août 2026",
+    "CommonThread — commonthreadco.com, 2026",
+    "Qwairy.co / GeoFast.fr — Google AI Overviews France, 22 juillet 2026",
+    "Erlin.ai — Parts de trafic IA (ChatGPT, Gemini, DeepSeek), janvier 2026",
+    "iaba.tech — Budget GEO France, 2026",
+    "UlazAI — Veo 3.1 update, 2 août 2026 ; CreativeMarketing.ai — Veo 3.1 vs Runway, 17 juillet 2026",
+    "Tech-Insider.org / PixVerse Blog — Runway Gen-4.5, Kling 3.0, 2026",
+    "Lengow Blog — TikTok Shop France Q2 2026, juillet 2026",
+    "J'ai un pote dans la com — CTV France, 31 mars 2026",
+    "eMarketer / Digital Applied — Programmatique &amp; walled gardens, 2026",
+    "Reworld MediaConnect / SRI — GEO x Créateurs, 21 juillet 2026",
+    "Gartner via Search Engine Land — Baisse volume recherche traditionnel, 2026",
+    "Ahrefs via Erlin.ai — Pages citées ChatGPT sans visibilité Google, 2026",
 ]
 
 NAV = [
     ("home", "index.html", "Accueil"),
     ("marche", "articles/marche-pub.html", "Marché"),
+    ("achat", "articles/achat-media.html", "IA"),
     ("video", "articles/video-ia.html", "Vidéo"),
-    ("social", "articles/reseaux-sociaux.html", "Social"),
-    ("rgpd", "articles/rgpd.html", "RGPD"),
+    ("chatgpt", "articles/chatgpt-ads.html", "ChatGPT"),
     ("portrait", "portrait.html", "Portrait"),
     ("sources", "sources.html", "Sources"),
 ]
@@ -227,7 +233,7 @@ def build_home() -> None:
         base,
         "home",
         "Les News | keep the link",
-        "Veille webmarketing Link , édition août 2026 : marché pub, vidéo générative, réseaux sociaux et RGPD.",
+        "Veille webmarketing Link, édition août 2026 : marché pub, achat média IA, vidéo générative et ChatGPT Ads.",
     )
     html += f"""
   <section class="hero">
@@ -236,7 +242,7 @@ def build_home() -> None:
       <div>
         <div class="eyebrow">Édition #7 · Août 2026</div>
         <h1>Ce qui change vraiment <span>cet été.</span></h1>
-        <p class="hero-lead">Août 2026 a tranché. La vidéo sociale dépasse le Search classique en France , pour la première fois. Google déploie son IA dans les résultats de recherche. L'IA Act entre en vigueur pour les productions vidéo. Et la CNIL surveille désormais les cookies en continu, sans attendre de plainte.</p>
+        <p class="hero-lead">L'été 2026 a été tout sauf calme : le marché pub digital français franchit les 6,7 Md€ au S1, Google lance ses AI Overviews en France, et la vidéo IA entre en production professionnelle. Ce mois-ci, on décrypte ce qui change vraiment pour votre business.</p>
         <div class="hero-actions">
           <a class="btn" href="articles/marche-pub.html">Lire l'édition</a>
           <a class="btn btn-ghost" href="portrait.html">Le portrait du mois</a>
@@ -247,8 +253,8 @@ def build_home() -> None:
         <dd>6,7 Md€</dd>
         <dt>Croissance</dt>
         <dd>+12 %</dd>
-        <dt>IA Act vidéo</dt>
-        <dd>2 août 2026</dd>
+        <dt>ChatGPT Ads</dt>
+        <dd>600 M</dd>
       </dl>
     </div>
   </section>
@@ -256,9 +262,9 @@ def build_home() -> None:
     <div class="container">
       <ul class="topics-list">
         <li><a href="articles/marche-pub.html">Marché pub</a></li>
-        <li><a href="articles/video-ia.html">IA &amp; vidéo</a></li>
-        <li><a href="articles/reseaux-sociaux.html">Réseaux sociaux</a></li>
-        <li><a href="articles/rgpd.html">RGPD &amp; cookies</a></li>
+        <li><a href="articles/achat-media.html">Achat média IA</a></li>
+        <li><a href="articles/video-ia.html">Vidéo générative</a></li>
+        <li><a href="articles/chatgpt-ads.html">ChatGPT Ads</a></li>
       </ul>
     </div>
   </div>
@@ -270,7 +276,7 @@ def build_home() -> None:
           <h2>Quatre sujets à retenir</h2>
         </div>
       </div>
-      <p class="intro-text"><strong>Quatre signaux. Une seule direction :</strong> les agences qui combinent vidéo, IA maîtrisée et données propres prennent une longueur d'avance que les autres auront du mal à combler. Juillet–août 2026 : le Social dépasse le Search, et la conformité (IA Act, cookies) n'est plus optionnelle.</p>
+      <p class="intro-text">Juillet-août 2026 marque un tournant : <strong>le marché publicitaire digital français atteint 6,689 Md€ au S1</strong>, porté par la vidéo sociale (+31 %) et le retail media (+18 %). Pendant ce temps, Google déploie ses AI Overviews en France le 22 juillet — un séisme pour le SEO — et la génération vidéo IA passe du stade expérimental à la production professionnelle. L'achat média agentique redistribue les rôles entre humains et machines. <strong>Ce n'est plus une tendance à surveiller : c'est votre quotidien de demain.</strong></p>
       <div class="kpi-row">
         <div class="kpi-card"><div class="kpi-value">6,7 Md€</div><div class="kpi-label">Marché digital S1 2026</div></div>
         <div class="kpi-card"><div class="kpi-value">+12 %</div><div class="kpi-label">Croissance vs S1 2025</div></div>
@@ -293,11 +299,11 @@ def build_home() -> None:
           <h2>Ce qu'il faut retenir en août</h2>
         </div>
       </div>
-      <p class="intro-text">La vidéo sociale est officiellement le premier levier publicitaire digital en France , devant le Search classique. AI Overview transforme les règles du SEO dès maintenant. Et l'IA Act impose de nouvelles obligations de conformité pour toute production vidéo IA diffusée publiquement. Les agences qui maîtrisent ces trois dimensions simultanément , production vidéo, IA responsable, données propres , sont celles qui créeront de la valeur durable pour leurs clients.</p>
+      <p class="intro-text">Le marché croît, mais la valeur se concentre. L'achat média devient agentique, la vidéo IA entre en production professionnelle, et ChatGPT ouvre un nouvel inventaire pub. Les agences qui maîtrisent ces trois dimensions — assets créatifs, stack vidéo, nouvelles surfaces — sont celles qui créeront de la valeur durable pour leurs clients.</p>
       <ul class="facts">
-        <li><strong>1.</strong> Intégrer la vidéo native (9:16, formats courts) dans toutes les offres clients , Social, LinkedIn, YouTube Shorts</li>
-        <li><strong>2.</strong> Auditer la visibilité des clients dans AI Overview et adapter les stratégies de contenu dès maintenant</li>
-        <li><strong>3.</strong> Mettre en conformité les productions vidéo IA (IA Act) et les bandeaux cookies clients (crawler CNIL actif)</li>
+        <li><strong>1.</strong> La vidéo est non négociable dans tout plan média 2026 — arbitrer plateformes globales et médias français</li>
+        <li><strong>2.</strong> Auditer les campagnes DSA avant septembre 2026 et tester AI Max : la valeur se déplace vers les assets créatifs</li>
+        <li><strong>3.</strong> Intégrer le stack Kling + Veo 3.1 + Runway, et anticiper ChatGPT Ads (Link est en liste d'attente)</li>
       </ul>
     </div>
   </section>
@@ -466,7 +472,7 @@ if __name__ == "__main__":
     build_articles()
     build_portrait()
     build_sources()
-    for obsolete in ("geo.html", "achat-media.html"):
+    for obsolete in ("geo.html", "reseaux-sociaux.html", "rgpd.html"):
         path = ROOT / "articles" / obsolete
         if path.exists():
             path.unlink()
