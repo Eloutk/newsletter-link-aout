@@ -19,7 +19,6 @@ ARTICLES = [
             "Le <strong>programmatique vidéo atteint 78 %</strong> de part dans la vidéo (vs 75 % un an plus tôt)",
             "L'Édition &amp; Information est le <strong>seul segment en recul (-5 %)</strong>, à 251 M€",
         ],
-        "reco": "<strong>Pour Link :</strong> Le marché croît, mais la valeur se concentre. L'arbitrage entre plateformes globales (performance) et médias français (brand safety, contexte) devient un enjeu stratégique central pour chaque client. La vidéo est non négociable dans tout plan média 2026.",
         "kpis": [
             ("6,7 Md€", "Marché digital S1 2026"),
             ("+12 %", "Croissance vs S1 2025"),
@@ -44,7 +43,6 @@ ARTICLES = [
             "<strong>91 % des annonceurs Meta</strong> utilisent désormais Advantage+ (Business Insider, 2026)",
             "Migration DSA → AI Max repoussée à <strong>février 2027</strong>, mais ACA + broad match migrent en <strong>septembre 2026</strong>",
         ],
-        "reco": "<strong>Pour Link :</strong> Auditer les campagnes DSA clients avant septembre 2026 (migration automatique imminente). Tester AI Max sur 1-2 campagnes Search dès maintenant. La valeur ajoutée de l'agence se déplace vers la qualité des assets créatifs fournis aux algorithmes — pas l'exécution manuelle.",
         "kpis": [],
         "card_title": "L'achat média passe en mode agentique",
         "card_text": "AI Max devient le défaut Search. Meta réécrit les annonces en temps réel. L'humain se repositionne sur la stratégie, pas l'exécution.",
@@ -65,7 +63,6 @@ ARTICLES = [
             "<strong>Runway Gen-4.5</strong> : ELO 1 247, meilleur score cohérence personnages — idéal brand content dirigé",
             "<strong>Sora 2 API</strong> : fin de vie septembre 2026 — migrer vers Veo 3.1 ou Kling 3.0 sans attendre",
         ],
-        "reco": "<strong>Pour Link :</strong> Intégrer le stack Kling (volume social) + Veo 3.1 (spots premium) + Runway (brand content) dans les workflows studio. La vraie valeur ajoutée reste la direction artistique et la cohérence de marque — pas la génération brute. Google recommande explicitement Veo 3.1 pour créer les assets vidéo Performance Max.",
         "kpis": [],
         "card_title": "Le stack vidéo IA est prêt",
         "card_text": "Veo 3.1, Runway Gen-4.5, Kling 3.0 : trois outils qui couvrent 95 % des besoins. L'API Sora 2 disparaît en septembre.",
@@ -86,7 +83,6 @@ ARTICLES = [
             "OpenAI cible en priorité les <strong>annonceurs Search et Performance</strong> pour la phase de lancement",
             "<strong>Link est en liste d'attente</strong> pour accéder au programme en avant-première et tester les premiers formats",
         ],
-        "reco": "<strong>Pour Link :</strong> Anticiper dès maintenant la stratégie créative et les audiences prioritaires pour les clients les plus exposés au Search. L'accès en avant-première permettra de tester, apprendre et prendre de l'avance sur un inventaire qui sera très disputé à l'ouverture.",
         "kpis": [],
         "card_title": "ChatGPT Ads : 600 millions d'utilisateurs",
         "card_text": "OpenAI ouvre la pub dans ChatGPT. Link est en liste d'attente pour déployer la solution en avant-première.",
@@ -376,7 +372,6 @@ def build_articles() -> None:
         <ul class="facts">
 {facts}
         </ul>
-        <div class="reco"><span class="reco-arrow">→</span><span>{art["reco"]}</span></div>
         <div class="article-nav">
           {nav_prev}
           {nav_next}
