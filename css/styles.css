@@ -367,6 +367,10 @@ a {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.card-grid.four > :last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
 .card-grid.five .card.featured {
   grid-column: 1 / -1;
 }
