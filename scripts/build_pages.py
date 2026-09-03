@@ -30,12 +30,12 @@ ARTICLES = [
         "label": "IA &amp; plateformes",
         "nav_label": "IA",
         "title": "L'IA passe aux commandes, Link garde la main",
-        "chapo": "Google et Meta automatisent de plus en plus le pilotage des campagnes. Surtout, un nouvel espace s'ouvre : la publicité dans ChatGPT — que Link peut déjà proposer, en avant-première.",
-        "lead": "Google et Meta automatisent de plus en plus le pilotage des campagnes. Surtout, un nouvel espace s'ouvre : la publicité dans ChatGPT — que <strong>Link peut déjà proposer, en avant-première</strong>. Notre rôle reste le même : cadrer ces outils pour qu'ils servent vos résultats, pas l'inverse.",
+        "chapo": "Google et Meta automatisent de plus en plus le pilotage des campagnes. Surtout, un nouvel espace s'ouvre : la publicité dans ChatGPT, que Link peut déjà proposer, en avant-première.",
+        "lead": "Google et Meta automatisent de plus en plus le pilotage des campagnes. Surtout, un nouvel espace s'ouvre : la publicité dans ChatGPT, que <strong>Link peut déjà proposer, en avant-première</strong>. Notre rôle reste le même : cadrer ces outils pour qu'ils servent vos résultats, pas l'inverse.",
         "facts": [],
         "kpis": [],
         "card_title": "L'IA passe aux commandes, Link garde la main",
-        "card_text": "Google et Meta automatisent de plus en plus le pilotage des campagnes. Surtout, un nouvel espace s'ouvre : la publicité dans ChatGPT — que <strong>Link peut déjà proposer, en avant-première</strong>. Notre rôle reste le même : cadrer ces outils pour qu'ils servent vos résultats, pas l'inverse.",
+        "card_text": "Google et Meta automatisent de plus en plus le pilotage des campagnes. Surtout, un nouvel espace s'ouvre : la publicité dans ChatGPT, que <strong>Link peut déjà proposer, en avant-première</strong>. Notre rôle reste le même : cadrer ces outils pour qu'ils servent vos résultats, pas l'inverse.",
         "featured": False,
     },
     {
@@ -46,36 +46,36 @@ ARTICLES = [
         "nav_label": "Vidéo",
         "title": "La vidéo pro, plus vite et moins chère",
         "chapo": "Produire une vidéo de qualité prend désormais quelques jours au lieu de quelques semaines, pour une fraction du budget.",
-        "lead": "Produire une vidéo de qualité prend désormais quelques jours au lieu de quelques semaines, pour une fraction du budget. Ce qui fait la différence n'est plus l'outil, mais le regard : notre studio interne combine cette rapidité avec une vraie direction artistique. Résultat — des contenus qui vous ressemblent, déclinés pour tous les formats.",
+        "lead": "Produire une vidéo de qualité prend désormais quelques jours au lieu de quelques semaines, pour une fraction du budget. Ce qui fait la différence n'est plus l'outil, mais le regard : notre studio interne combine cette rapidité avec une vraie direction artistique. Résultat, des contenus qui vous ressemblent, déclinés pour tous les formats.",
         "facts": [],
         "kpis": [],
         "card_title": "La vidéo pro, plus vite et moins chère",
-        "card_text": "Produire une vidéo de qualité prend désormais quelques jours au lieu de quelques semaines, pour une fraction du budget. Ce qui fait la différence n'est plus l'outil, mais le regard : notre studio interne combine cette rapidité avec une vraie direction artistique. Résultat — des contenus qui vous ressemblent, déclinés pour tous les formats.",
+        "card_text": "Produire une vidéo de qualité prend désormais quelques jours au lieu de quelques semaines, pour une fraction du budget. Ce qui fait la différence n'est plus l'outil, mais le regard : notre studio interne combine cette rapidité avec une vraie direction artistique. Résultat, des contenus qui vous ressemblent, déclinés pour tous les formats.",
         "featured": False,
     },
 ]
 
 SOURCES = [
-    "SRI / UDECAM / Oliver Wyman — 36e Observatoire de l'e-pub, 9 juillet 2026 — sri-france.org",
-    "The Media Leader FR — fr.themedialeader.com, 9 juillet 2026",
-    "Siècle Digital — siecledigital.fr, 13 juillet 2026",
-    "La Revue du Digital — larevuedudigital.com, juillet 2026",
-    "Blog du Modérateur — blogdumoderateur.com, janvier 2026",
-    "Google Blog officiel — blog.google (AI Max for Search, avril &amp; juin 2026)",
-    "Meta for Business / about.fb.com — Meta Lattice jan. 2026 ; Muse Image juillet 2026",
-    "AdAdvisor / AdMake AI Blog — Meta Ads updates août 2026",
-    "CommonThread — commonthreadco.com, 2026",
-    "Qwairy.co / GeoFast.fr — Google AI Overviews France, 22 juillet 2026",
-    "Erlin.ai — Parts de trafic IA (ChatGPT, Gemini, DeepSeek), janvier 2026",
-    "iaba.tech — Budget GEO France, 2026",
-    "UlazAI — Veo 3.1 update, 2 août 2026 ; CreativeMarketing.ai — Veo 3.1 vs Runway, 17 juillet 2026",
-    "Tech-Insider.org / PixVerse Blog — Runway Gen-4.5, Kling 3.0, 2026",
-    "Lengow Blog — TikTok Shop France Q2 2026, juillet 2026",
-    "J'ai un pote dans la com — CTV France, 31 mars 2026",
-    "eMarketer / Digital Applied — Programmatique &amp; walled gardens, 2026",
-    "Reworld MediaConnect / SRI — GEO x Créateurs, 21 juillet 2026",
-    "Gartner via Search Engine Land — Baisse volume recherche traditionnel, 2026",
-    "Ahrefs via Erlin.ai — Pages citées ChatGPT sans visibilité Google, 2026",
+    "SRI / UDECAM / Oliver Wyman, 36e Observatoire de l'e-pub, 9 juillet 2026, sri-france.org",
+    "The Media Leader FR, fr.themedialeader.com, 9 juillet 2026",
+    "Siècle Digital, siecledigital.fr, 13 juillet 2026",
+    "La Revue du Digital, larevuedudigital.com, juillet 2026",
+    "Blog du Modérateur, blogdumoderateur.com, janvier 2026",
+    "Google Blog officiel, blog.google (AI Max for Search, avril &amp; juin 2026)",
+    "Meta for Business / about.fb.com, Meta Lattice jan. 2026 ; Muse Image juillet 2026",
+    "AdAdvisor / AdMake AI Blog, Meta Ads updates août 2026",
+    "CommonThread, commonthreadco.com, 2026",
+    "Qwairy.co / GeoFast.fr, Google AI Overviews France, 22 juillet 2026",
+    "Erlin.ai, Parts de trafic IA (ChatGPT, Gemini, DeepSeek), janvier 2026",
+    "iaba.tech, Budget GEO France, 2026",
+    "UlazAI, Veo 3.1 update, 2 août 2026 ; CreativeMarketing.ai, Veo 3.1 vs Runway, 17 juillet 2026",
+    "Tech-Insider.org / PixVerse Blog, Runway Gen-4.5, Kling 3.0, 2026",
+    "Lengow Blog, TikTok Shop France Q2 2026, juillet 2026",
+    "J'ai un pote dans la com, CTV France, 31 mars 2026",
+    "eMarketer / Digital Applied, Programmatique &amp; walled gardens, 2026",
+    "Reworld MediaConnect / SRI, GEO x Créateurs, 21 juillet 2026",
+    "Gartner via Search Engine Land, Baisse volume recherche traditionnel, 2026",
+    "Ahrefs via Erlin.ai, Pages citées ChatGPT sans visibilité Google, 2026",
 ]
 
 NAV = [
@@ -202,7 +202,7 @@ def build_home() -> None:
       <div>
         <div class="eyebrow">Édition #7 · Août 2026</div>
         <h1>Ce qui change vraiment <span>cet été.</span></h1>
-        <p class="hero-lead">Un marché publicitaire qui grandit, des outils qui deviennent plus simples, et de nouveaux espaces pour vos campagnes. On vous explique l'essentiel de la rentrée — clairement, et sans jargon.</p>
+        <p class="hero-lead">Un marché publicitaire qui grandit, des outils qui deviennent plus simples, et de nouveaux espaces pour vos campagnes. On vous explique l'essentiel de la rentrée, clairement, et sans jargon.</p>
         <div class="hero-actions">
           <a class="btn" href="articles/marche-pub.html">Lire l'édition</a>
           <a class="btn btn-ghost" href="portrait.html">Le portrait du mois</a>
@@ -236,7 +236,7 @@ def build_home() -> None:
           <h2>Trois sujets à retenir</h2>
         </div>
       </div>
-      <p class="intro-text">L'été 2026 marque un tournant simple à résumer : le marché publicitaire en ligne grandit (<strong>6,689 Md€ au premier semestre, +12 %</strong>), porté par la vidéo sur les réseaux et la pub sur les sites marchands. Les outils, eux, se simplifient — et de nouveaux espaces s'ouvrent, comme la publicité dans ChatGPT, que <strong>Link peut déjà activer pour vous</strong>. Ce n'est plus une tendance à surveiller : c'est votre quotidien de demain.</p>
+      <p class="intro-text">L'été 2026 marque un tournant simple à résumer : le marché publicitaire en ligne grandit (<strong>6,689 Md€ au premier semestre, +12 %</strong>), porté par la vidéo sur les réseaux et la pub sur les sites marchands. Les outils, eux, se simplifient, et de nouveaux espaces s'ouvrent, comme la publicité dans ChatGPT, que <strong>Link peut déjà activer pour vous</strong>. Ce n'est plus une tendance à surveiller : c'est votre quotidien de demain.</p>
       <div class="kpi-row">
         <div class="kpi-card"><div class="kpi-value">6,7 Md€</div><div class="kpi-label">Marché digital S1 2026</div></div>
         <div class="kpi-card"><div class="kpi-value">+12 %</div><div class="kpi-label">Croissance vs S1 2025</div></div>
@@ -261,7 +261,7 @@ def build_home() -> None:
       </div>
       <p class="intro-text">Le marché grandit, mais la valeur se déplace vers la vidéo et les sites marchands. Les outils se simplifient, et de nouveaux espaces publicitaires apparaissent. Les marques qui prennent de l'avance maintenant sont celles qui en récolteront les fruits.</p>
       <ul class="facts">
-        <li><strong>1.</strong> La vidéo est incontournable dans tout plan média 2026 — les réseaux sociaux en tête.</li>
+        <li><strong>1.</strong> La vidéo est incontournable dans tout plan média 2026, les réseaux sociaux en tête.</li>
         <li><strong>2.</strong> De nouveaux espaces s'ouvrent : Link peut déjà activer vos campagnes ChatGPT Ads.</li>
         <li><strong>3.</strong> L'IA accélère la production ; c'est la direction artistique humaine qui fait la différence.</li>
       </ul>
