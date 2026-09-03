@@ -160,7 +160,7 @@ def footer(base: str) -> str:
           <h3>Contact</h3>
           <ul>
             <li><a href="https://link.fr/contact-agence-link/">link.fr</a></li>
-            <li>Édition #7 , Août 2026</li>
+            <li>Édition #7 , Été 2026</li>
           </ul>
         </div>
       </div>
@@ -193,14 +193,14 @@ def build_home() -> None:
         base,
         "home",
         "Les News | keep the link",
-        "Veille webmarketing Link, édition août 2026 : marché pub, achat média, production vidéo et ChatGPT Ads.",
+        "Veille webmarketing Link, édition été 2026 : marché pub, achat média, production vidéo et ChatGPT Ads.",
     )
     html += f"""
   <section class="hero">
     <div class="waves" aria-hidden="true"></div>
     <div class="container hero-inner">
       <div>
-        <div class="eyebrow">Édition #7 · Août 2026</div>
+        <div class="eyebrow">Édition #7 · Été 2026</div>
         <h1>Ce qui change vraiment <span>cet été.</span></h1>
         <p class="hero-lead">Un marché publicitaire qui grandit, des outils qui deviennent plus simples, et de nouveaux espaces pour vos campagnes. On vous explique l'essentiel de la rentrée, clairement, et sans jargon.</p>
         <div class="hero-actions">
@@ -256,7 +256,7 @@ def build_home() -> None:
       <div class="section-head">
         <div>
           <div class="section-kicker">Synthèse</div>
-          <h2>Ce qu'il faut retenir en août</h2>
+          <h2>Ce qu'il faut retenir cet été</h2>
         </div>
       </div>
       <p class="intro-text">Le marché grandit, mais la valeur se déplace vers la vidéo et les sites marchands. Les outils se simplifient, et de nouveaux espaces publicitaires apparaissent. Les marques qui prennent de l'avance maintenant sont celles qui en récolteront les fruits.</p>
@@ -329,7 +329,7 @@ def build_articles() -> None:
         <span>/</span>
         <span>{art["label"]}</span>
       </nav>
-      <div class="eyebrow">{art["label"]} · Août 2026</div>
+      <div class="eyebrow">{art["label"]} · Été 2026</div>
       <h1>{art["title"]}</h1>
       <p>{art["chapo"]}</p>
     </div>
@@ -402,7 +402,7 @@ def build_sources() -> None:
         base,
         "sources",
         "Sources | keep the link",
-        "Sources citées dans l'édition août 2026 de keep the link Les News.",
+        "Sources citées dans l'édition été 2026 de keep the link Les News.",
     )
     html += f"""
   <section class="page-hero">
@@ -413,9 +413,9 @@ def build_sources() -> None:
         <span>/</span>
         <span>Sources</span>
       </nav>
-      <div class="eyebrow">Édition #7 · Août 2026</div>
+      <div class="eyebrow">Édition #7 · Été 2026</div>
       <h1>Sources citées</h1>
-      <p>Références utilisées pour l'édition d'août : observatoires, blogs plateformes et études marché.</p>
+      <p>Références utilisées pour l'édition d'été : observatoires, blogs plateformes et études marché.</p>
     </div>
   </section>
   <section class="section">

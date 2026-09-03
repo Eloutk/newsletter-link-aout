@@ -1,6 +1,6 @@
 # Les News , keep the link
 
-Site de la newsletter **keep the link**, édition #7 (août 2026).
+Site de la newsletter **keep the link**, édition #7 (été 2026).
 
 ## Pages
 
