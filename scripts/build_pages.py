@@ -431,6 +431,10 @@ def build_sources() -> None:
 
 
 if __name__ == "__main__":
+    raise SystemExit(
+        "Les pages de l'édition septembre 2026 sont les fichiers HTML du site. "
+        "Ce script décrit encore l'édition d'août et ne doit plus être lancé."
+    )
     build_home()
     build_articles()
     build_portrait()

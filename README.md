@@ -1,15 +1,14 @@
 # Les News , keep the link
 
-Site de la newsletter **keep the link**, édition #7 (été 2026).
+Site de la newsletter **keep the link**, édition #8 (septembre 2026).
 
 ## Pages
 
 - `index.html` , accueil
-- `articles/marche-pub.html` , marché pub / Social vs Search
-- `articles/video-ia.html` , vidéo IA & IA Act
-- `articles/reseaux-sociaux.html` , LinkedIn & TikTok
-- `articles/rgpd.html` , RGPD & cookies / CNIL
-- `portrait.html` , Gary Cadiz
+- `articles/marche-pub.html` , économie française et ROI
+- `articles/achat-media.html` , régies et plateformes
+- `articles/video-ia.html` , vidéo verticale
+- `portrait.html` , Pauline Bonon
 - `sources.html` , sources citées
 
 ## Lancer en local
